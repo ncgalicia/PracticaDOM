@@ -43,10 +43,27 @@ const users = [
         desc: "Sobre mí",
         age: 26,
         fav_books: {
-            books: ["Angeles y Demonios", "Tu cerebro tiene hambre", "El principito", "Antes de que el café se enfríe", "Muerte en Pekín"],
+            books: ["Donde habitan los angeles", "Orgullo y Prejuicio", "Harry potter y las reliquias de la muerte", "Don Quijote de la Manccha", "Romeo y Julieta"],
         },
     },
-   
+    {
+        id: 3,
+        userName: "user2cia",
+        desc: "Sobre mí",
+        age: 28,
+        fav_books: {
+            books: [ "Orgullo y Prejuicio", "El perfume", "El psicoanalista", "Harry Potter y la cámara secreta"],
+        },
+    },
+    {
+        id: 4,
+        userName: "user123",
+        desc: "Sobre mí",
+        age: 20,
+        fav_books: {
+            books: ["Harry Potter y el prisionero de Azkaban", "Harry Potter y el cáliz de fuego", "Harry Potter y el misterio del príncipe", "Harry Potter y la Orden del Fénix"],
+        },
+    },
 ];
 
 users.forEach(user => createUserCard(user));
